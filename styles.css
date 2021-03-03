@@ -1,0 +1,29 @@
+
+        /* h1{
+            color:coral ;
+
+        } */
+        #hid{
+            color: crimson;
+        }
+        .header{
+            color:blueviolet;
+        }
+        p{
+            color:darkgreen;
+        }
+    
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* cell-padding=it creates the space between cell content and border*/
+}
+    th, td {
+        padding: 15 px;
+    }
+    /* text-allign=text to move right or left or center
+
+
+
+
+}

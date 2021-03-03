@@ -1,0 +1,19 @@
+CSS-Cascading style sheets-format the layout of webpage
+  we can controle color,font,size,background ,position element, background image
+  1.Inline- use style attribute inside HTML elements.   
+  2.Internal-<style></style> element is head in the HTML element.
+  3.External-<link> element to link the external CSS file
+
+HTML forms
+==============
+  when we want to collect some data from the user
+
+  1.Text input control-single line,password, multi line
+  2.Checkbox control
+  3.Radiobutton control
+  4.Select control
+  5.File control
+  6.Hidden control
+  7.Button control
+
+
