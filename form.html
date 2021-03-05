@@ -5,13 +5,78 @@
     </head>
     <body>
         <form>
-            FirstName:<input type="text" name="fname"/><br><br>
+           <label for "FirstName">FirstName:</label><input type="text" name="fname"/><br><br>
+            <label for "LastName">LastName:</label><input type="text" name="lname"/><br><br>
+            <label for "Password">Password:</label><input type="password" name="password"/><br><br>
+           <label for "TextDescription">Description:</label>
+                    <textarea name="description" 
+                    id="txtDescription" 
+                    cols="10" 
+                    rows="5"
+                    >Hello everybody  how are you?
+            </textarea><br>
+            <label>Select my required aubjects:</label><br>
+            <input type="checkbox" 
+                    name="Csharp" 
+                    value="Csharp" 
+                    id="CsharpId">Csharp<br>
+            <input type="checkbox" 
+                    name="Angular" 
+                    value="Angular" 
+                    id="AngularId">Angular<br>
+            <input type="checkbox" 
+                    name="JavaScript" 
+                    value="Javasript" 
+                    id="JavascriptId">JavaScript<br>
+            <input type="checkbox" 
+                    name="NodeJs" 
+                    value="NodeJs" 
+                    id="NodeJSId">NodeJs<br><br></n>
+                    
 
 
-            LastName:<input type="text" name="lname"/><br><br>
-            Password:<input type="password" name="password"/><br><br>
-            Description:<textarea name="description" id="txtDescription" cols="75" row="90"></textarea>
-        </form>
+
+
+            <label>Radio Button:</label>
+            <input type="radio" name="Subject" value="Maths" id="MathsRid">Maths<br>
+            <input type="radio" name="Subject" value="Physics" id="PhysicssRid">Physics<br>
+            <input type="radio" name="Subject" value="Chemistry" id="ChemistryRid">Chemistry<br>
+            <input type="radio" name="Subject value="Botony" id="BotonyRid">Botony<br></n>
+
+            <!--Select input controls-->
+            <br>
+            <br>
+        </n>
+        <label>Select an option:</label>
+            <select name="dropdown">
+                <option value="All" selected>All</option>
+                <option value="Csharp">Csharp</option>
+                <option value="Angular">Angular</option>
+                <option value="ReactJs">ReactJs</option>
+                <option value="NodeJs">NodeJs</option>
+            
+            </select>
+            <br><br><br>
+        </n>
+            <!--File Controls-->
+            <label>Select any File:</label>
+            <input type="file" name="upload"/>
+            <br><br>
+<!--butoon controls-->
+<input type="button" name="submit" value="submit"/> <!--will not refresh the page-->
+<input type="Submit" name="submit" value="submit"/> <!--will  refresh the page-->
+<br><br>
+<!--Image button-->
+<label>Image display:</label>
+<input type="image" name="imageButton" src="C:\Users\ferua\Desktop\mujjubropics/IMG-1653"/>
+
+<!--input Controls-->
+
+<input type="hidden" name="UsedId" id="hdnUserId" value="100"/>
+
+
+
+         </form>
 
     </body>
 </html>
